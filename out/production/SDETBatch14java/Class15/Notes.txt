@@ -1,0 +1,28 @@
+
+Types of variable with respect to their scope:
+There are three type of variable with respect to their scope
+1 local variable
+2 instance variable
+3. static variable
+a variable tha is created inside a method loop switch case or any block of code is called local variable
+    When we should use local variable:
+    local variable occupy computer memory for short amount of time, but they are limit in scope we cant use local variable
+    outside of the block of code// anything inside the block of code is  local variable// up-side is they exist for a very
+    short amount of time in the memory
+    // Down-side  they are limit in scope we cant use local variable outside the block of code
+    we should always try to use
+for( int i=0; i<5; i++){
+System.out.println(i);
+}
+ 2- Which are declared outside a block of code but inside a class are called instance variable
+ they occupy the memory for long
+ up-side: we can use these variables inside any block of code that is inside that class
+ downSide: occupy the memory for long
+  1)when we should use instance variable , when we need to share a value betwen two or more methods then we should go with
+ instance variable
+ 2) when we  planning to create multiple object of class and it is possible that all object can have a different value
+ for that variable
+ 3 if an instance variable has a key word static is called static variable
+ up-side: When we need to share something across the object
+  but it occupies the memomory for longer time
+  when use: when we want to share something across all the method

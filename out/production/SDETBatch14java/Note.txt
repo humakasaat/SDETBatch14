@@ -1,0 +1,44 @@
+ this keyword
+ this is like a '"class" ,"void". it is used in many places .for example if we have same name instance and local variable we can use
+ "this  to explicitly refer to instance variable .we can use this () to call a constructor inside of constructor "
+ why we should use this
+ 1. it is allows us to have same name
+ 2. if we have same code in two constructors we can reuse-that code from one constructor inside another constructor by writing this
+
+ 3.
+ Inheritance:
+
+ Inheritance is mechanism in java through which we can use field /methods of one class's inside another class
+
+ it helps us avoid code duplication
+ it helps us save space, and it helps us improve the execution speed
+ there are 4 types of inheritance but java only supports 3 of them with classes
+ 1.  single Inheritance
+      we have one parent and one child class, and not widely use
+ 2. multilevel inheritance
+     in multilevel inheritance we have inheritance in multiple levels like we grandfather-> father-> son-> grand son
+
+     for example A<B<C<D
+ 3. Hierarchical inheritance
+     one parent class and multiple  child classes
+ 4. multiple inheritance// it is not supported by java
+
+    one child class can directly inherit from multiple parent classes. it is not supported from java because of diamond problem
+ why should we learn inheritance?
+    it allows to reduce the duplicate code
+ syntax.
+ we can use this feature by writing extends keyword whe declaring a class
+ super KeyWord,
+ we use the super key word to explicitly call the variable from parent class. when we have same name
+ instance variable in child class and parent class
+ we can also use the super keyword to call the constructor
+ MethodOverLoading
+
+  allows us to create multiple methods in a class with the same name.
+  Why we should create multiple methods with same name?
+  it gives the end user flexibility.
+  the end users call the same method with different parameters to get same or different result
+how do overload a method
+1) by passing different number of parameters
+2) change the datatype
+3) by changing the sequence of parameters
